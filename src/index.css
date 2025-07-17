@@ -1,55 +1,78 @@
+.to-do-list{
+    font-family: arial , sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    
+}
+h1{
+    font-size: 4rem;
+    color: rgb(255, 255, 255);
+}
+button{
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.add-button{
+    background-color: #4CAF50;
+}
+.add-button:hover{
+    background-color: #3e8f42;
+}
+.delete-button{
+    font-size: 4rem;
+    background-color: #f44336;
+}
+.delete-button:hover{
+    background-color: #752222;
+}
+.move-button{
+    background-color: #008CBA;
+}
+.move-button:hover{
+    background-color: #007B9E;
+}
+input[type="text"]{
+    width: 300px;
+    padding: 10px;
+    font-size: 1.6rem;
+    border: 2px solid #ccc;
+    border-radius: 7px;
+    margin-right: 10px;
+}
+ol{
+    padding: 0;
+}
+li{
+    font-size: 2rem;
+    padding: 15px;
+    font-weight: bold;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    border: 3px solid #ccc;
+    display: flex;
+    align-items: center;
+
+}
+.text{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+}
+.delete-button, .move-button{
+    padding: 8px 12px;
+    margin-left: 10px;
+    font-size: 1.4rem;
+}
 body{
-  display: flex;
-  flex-direction: column;
-  align-self: center;
-  background-color: #f0f0f0;
-
-}
-.stopwatch {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border: 5px solid#333;
-  background-color: #fff;
-  padding: 30px;
-  border-radius: 50px;
-}
-.display{
-  font-size: 5rem;
-  font-weight: bold;
-  font-family: monospace;
-  color: #333;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
-  margin-bottom: 25px;
-}
-.controls button{
-  font-size: 1.5rem;
-  font-weight: bold;
-  padding: 10px 20px;
-  margin: 5px;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  color: #000;
-
-
-}
-.start-button {
-  background-color: #4CAF50; /* Green */
-}
-.start-button:hover {
-  background-color: #027008; /* Darker green */
-}
-.stop-button {
-  background-color: #f44336; /* Red */
-}
-.stop-button:hover {
-  background-color: #860300; /* Darker red */
-}
-.reset-button {
-  background-color: #008CBA; /* Blue */
-}
-.reset-button:hover {     
-  background-color: #014e72; /* Darker blue */
+    background-color: #141414;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }

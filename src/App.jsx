@@ -1,10 +1,9 @@
-import StopWatch from "./StopWatch"
+import ToDoList from "./ToDoList"
 function App() {
-  return (
-    <div>
-      <StopWatch />
-    </div>
-  );
+  
+
+    return (<ToDoList />)
+
 }
 
 export default App
